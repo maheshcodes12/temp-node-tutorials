@@ -20,3 +20,5 @@ fs.readFile("./txtFolder/100-index.txt", "utf-8", (err, result) => {
 });
 
 log("This text should be displayed first");
+
+//here we are also facing callback hell problem. We can encounter it with promises.
