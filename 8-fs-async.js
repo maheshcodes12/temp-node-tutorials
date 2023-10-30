@@ -19,4 +19,4 @@ fs.readFile("./txtFolder/100-index.txt", "utf-8", (err, result) => {
 	);
 });
 
-log("This text should be displayed last");
+log("This text should be displayed first");
