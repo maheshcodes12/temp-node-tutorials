@@ -21,3 +21,7 @@ const func = async () => {
 
 func();
 // Just don't forget to add uft8 along wtih the path
+
+// And there is one more easy way to do this thing.
+const { readFile } = require("fs").promises;
+// this will do the same thing what util does.
